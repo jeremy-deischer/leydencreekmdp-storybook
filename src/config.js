@@ -1,8 +1,8 @@
 var config = {
     style: 'mapbox://styles/mapbox/streets-v11',
-    accessToken: 'YOUR_ACCESS_TOKEN',
+    accessToken: 'pk.eyJ1IjoiaWNvbmVuZyIsImEiOiJjaXBwc2V1ZnMwNGY3ZmptMzQ3ZmJ0ZXE1In0.mo_STWygoqFqRI-od05qFg',
     showMarkers: true,
-    theme: 'light',
+    theme: 'dara',
     alignment: 'left',
     title: 'The Title Text of this Story',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
@@ -10,8 +10,8 @@ var config = {
     footer: 'Source: source citations, etc.',
     chapters: [
         {
-            id: 'slug-style-id',
-            title: 'Display Title',
+            id: 'Opening ID',
+            title: 'Opening Title e',
             image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
@@ -49,5 +49,3 @@ var config = {
         }
     ]
 };
-
-export default config;
